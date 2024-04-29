@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Choropleth Map</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">United States Educational Attainment</h1>
+        <description id="description">Percentage of adults age 25 and older with bachelor's degree or higher (2010-2014)</description>
+        <svg id="canvas">
+
+        </svg>
+        <div id="source">
+            Source:
+            <a
+            href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx"
+            target="_blank"
+            >USDA Economic Research Service</a
+            >
+        </div>
+        <div id="tooltip"></div>
+    </div>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
